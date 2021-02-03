@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Atomic-Samurai";
+    src: url("../../Assets/fonts/AtomicSushi-gy41.ttf");
+}
+
+.top-bar {
+    position: sticky;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.restaurant-icon {
+    float: left;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    height: 128px;
+    margin-top: -64px;
+    margin-left: 10px;
+}
+
+.restaurant-title {
+    float: right;
+    width: 70%;
+    height: auto;
+    font-family: "Atomic-Samurai", "Courier", "sans-seriff";
+    font-size: 33.5px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#restaurant-main-icon {
+    width: 128px;
+    height: 128px;
+}

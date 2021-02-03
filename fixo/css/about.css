@@ -1,0 +1,12 @@
+.about {
+    display: table;
+}
+
+.about-paragraph-container{
+    text-align: justify;
+}
+
+.about-paragraph {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}

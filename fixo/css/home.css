@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Atomic Samurai";
+    src: url("../../Assets/fonts/AtomicSushi-gy41.ttf");
+}
+
+.bordered-element {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.page-content {
+    width: 100%;
+    height: auto;
+}
+
+.side-menu {
+    float: left;
+    width: 250px;
+    display: table;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.non-default-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Atomic-Samurai", "Courier", "sans-seriff";
+    font-size: 2.1em; /*2.1em == 33.5px*/
+    display: table;
+}
+
+.menu-button {
+    margin: 10px;
+    border: 2px solid black;
+    width: 70%;
+    float: left;
+    
+}
+
+a.menu-button:nth-of-type(2n+1) {
+    clear: left;
+}
+
+a.menu-button:link, a.menu-button:visited {
+    background-color: #45b29b;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.menu-button:hover, a.menu-button:active {
+    background-color: #358c79;
+    /*font-size: 2.1em; /*33.5px == 2.1em || 2.1em/2 == 1.05em*/
+}
+
+.main-content {
+    float: right;
+    width: 650px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.welcoming-section {
+    padding: 0;
+    width: 100%;
+}
+
+.restaurant-slideshow {
+    float: right;
+    max-width: 70%
+}
+
+.side-message {
+    float: left;
+    max-width: 30%;
+    font-size: 50px;
+}

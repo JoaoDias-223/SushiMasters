@@ -1,0 +1,28 @@
+.sushi-product-card {
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 0.9em; /*2.1em == 33.5px*/
+    margin: auto;
+}
+
+.sushi-product-card:hover{
+    width: 100%;
+    font-size: 1.2em;
+}
+
+p.sushi-product-label, p.sushi-product-content{
+    display: inline;
+}
+
+p.sushi-product-content:after{
+    content: "\a\a";
+    white-space: pre;
+}
+
+p.sushi-product-label {
+    font-weight: bold;
+}
