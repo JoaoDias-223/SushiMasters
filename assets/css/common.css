@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Atomic Samurai";
+    src: url("../../Assets/fonts/AtomicSushi-gy41.ttf");
+}
+
+.bordered-element {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.page-content {
+    width: 100%;
+    height: auto;
+}

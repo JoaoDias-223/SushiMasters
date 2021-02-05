@@ -11,16 +11,18 @@
 
     <link type="text/css" rel="stylesheet" href="../css/fixed-layout.css"/>
     <link type="text/css" rel="stylesheet" href="../css/top-bar.css"/>
-    <link type="text/css" rel="stylesheet" href="../css/home.css"/>
+    <link type="text/css" rel="stylesheet" href="../../assets/css/menu.css"/>
+    <link type="text/css" rel="stylesheet" href="../../assets/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/sushi.css"/>
     
 </head>
 <body>
-    <div class="page-layout">
+    <div class="page-layout bordered-element">
         <div class="page-formatting">
 
             <header class="top-bar clearfix bordered-element">
                 <div class="restaurant-icon clearfix">
-                    <img src="../../assets/images/icons/sushi-icon-01.png" id="restaurant-main-icon"/>
+                    <img src="../../assets/images/icons/sushi_creditas.png" id="restaurant-main-icon"/>
                 </div>
                 <div class="restaurant-title clearfix">
                     <h1>Atomic Sushi</h1>
@@ -28,31 +30,119 @@
             </header>
 
             <section class="page-content">
-                <aside class="side-menu clearfix bordered-element">
+                <aside class="side-menu clearfix">
                     <ul class="non-default-list">
                         <li><a href="home.html" class="menu-button">Home</a></li>
                         <li><a href="sushi.html" class="menu-button">Sushi</a></li>
-                        <li><a href="premium-sushi.html" class="menu-button">Sushi Premium</a></li>
+                        <li><a href="premium-sushi.html" class="menu-button">Sushi<br>Premium</a></li>
                         <li><a href="contact.html" class="menu-button">Contato</a></li>
-                        <li><a href="about.html" class="menu-button">Quem Somos</a></li>
+                        <li><a href="about.html" class="menu-button">Quem<br>Somos</a></li>
                     </ul>
                 </aside>
                 <section class="main-content bordered-element">
-                    <section class="welcoming-section clearfix">
-                        <h2 class="side-message"> Bom Apetite!</h2>
-                        <div class="restaurant-slideshow">
-                            <img src="../../assets/images/different-restaurants/sushi-restaurant-01.jpg" class="restaurant-image">
+                    <div class="main-content-topbar black-border">
+                        <h2>Sushi</h2>
+                    </div>
+                    <div class="products-container">
+                        <div class="triplet">
+                            <div class="sushi-product-card bordered-element triplet-01 clearfix">
+                                <img src="../../assets/images/premium-sushi/kimuchi.jpg" class="sushi-product-image clearfix"/>
+                                <div class="product-info">
+                                    <div class="product-name">
+                                        <p class="sushi-product-label" >Nome:</p>
+                                        <p class="sushi-product-content">Kimuchi</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="sushi-product-label">Descrição:</p>
+                                        <p class="sushi-product-content">salmão fresco em cubos com molho picante e gergelim + 46- temaki de salmão: sushi em forma de cone, enrolado com alga marinha, arroz, salmão fresco, cream cheese e cebolinha</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p class="sushi-product-label">Preço:</p>
+                                        <p class="sushi-product-content">R$ 52,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sushi-product-card bordered-element triplet-02 clearfix">
+                                <img src="../../assets/images/premium-sushi/marumata.jpg" class="sushi-product-image clearfix"/>
+                                
+                                <div class="product-info">
+                                    <div class="product-name">
+                                        <p class="sushi-product-label" >Nome:</p>
+                                        <p class="sushi-product-content">Marumata</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="sushi-product-label">Descrição:</p>
+                                        <p class="sushi-product-content">Enrolado com fatias finas de salmão fresco massaricado, shimeji, cream cheese e cebolinha. Aromatizado com molho teryaki.
+                                        <br>Serve 1 pessoa</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p class="sushi-product-label">Preço:</p>
+                                        <p class="sushi-product-content">R$ 18,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sushi-product-card bordered-element triplet-03 clearfix">
+                                <img src="../../assets/images/premium-sushi/temaki-atum.jpg" class="sushi-product-image clearfix"/>
+                                <div class="product-info">
+                                    <div class="product-name">
+                                        <p class="sushi-product-label" >Nome:</p>
+                                        <p class="sushi-product-content">Temaki-Atum</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="sushi-product-label">Descrição:</p>
+                                        <p class="sushi-product-content">Sushi em forma de cone, enrolado com alga marinha, arroz, atum fresco, cream cheese e cebolinha.
+                                        <br>Serve 1 pessoa</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p class="sushi-product-label">Preço:</p>
+                                        <p class="sushi-product-content">R$ 21,00</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </section>
-                    <article class="sushi-highlights">
-                        <h2> Destaques </h2>
-                        <div class="sushi-container">
-                            <img src="../../assets/images/different-restaurants/sushi-restaurant-01.jpg" class="product-image">
 
+                        <div class="triplet">
+                            <div class="sushi-product-card bordered-element triplet-01">
+                                <img src="../../assets/images/premium-sushi/temaki-camarao.jpg" class="sushi-product-image clearfix"/>
+                                <div class="product-info">
+                                    <div class="product-name">
+                                        <p class="sushi-product-label" >Nome:</p>
+                                        <p class="sushi-product-content">Temaki-Camarão</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="sushi-product-label">Descrição:</p>
+                                        <p class="sushi-product-content">Sushi em forma de cone, enrolado com alga marinha, arroz, camarão empanado, cream cheese e cebolinha.
+
+                                        <br>Serve 1 pessoa</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p class="sushi-product-label">Preço:</p>
+                                        <p class="sushi-product-content">R$ 25,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sushi-product-card bordered-element triplet-02">
+                                <img src="../../assets/images/premium-sushi/temaki-salmao.jpg" class="sushi-product-image clearfix"/>
+                                <div class="product-info">
+                                    <div class="product-name">
+                                        <p class="sushi-product-label" >Nome:</p>
+                                        <p class="sushi-product-content">Temaki-Salmão</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="sushi-product-label">Descrição:</p>
+                                        <p class="sushi-product-content">Sushi em forma de cone, enrolado com alga marinha, arroz, salmão fresco, cream cheese e cebolinha
+
+                                        <br>Serve 1 pessoa</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <p class="sushi-product-label">Preço:</p>
+                                        <p class="sushi-product-content">R$ 19,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
-                        
-                        
-                    </article>
+                    </div>
                 </section>
             </section>
 
