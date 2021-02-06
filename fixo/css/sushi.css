@@ -7,8 +7,8 @@
 
 }
 
-.golden-border {
-    border: 5px #b69f1b dotted;
+.black-border {
+    border: 5px black dotted;
     border-radius: 10px;
 }
 
@@ -16,7 +16,7 @@
     height: 600px;
     overflow-y: auto;
 }
-.sushi-product-card{
+.sushi-product-card {
     border-radius: 10px;
     background-color: white;
     width: 30%;
@@ -26,16 +26,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: 0.9em; /*2.1em == 33.5px*/
-    margin: 0px auto;
-    color: black;
-}
-
-.sushi-product-card:link, .sushi-product-card:visited {
-    text-decoration: none;
+    margin: auto;
 }
 
 .sushi-product-card:hover{
-    border: 5px gold solid;
+    border: 5px black solid;
     transform: scale(1.1);
 }
 
