@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Atomic-Samurai";
+    src: url("../../Assets/fonts/AtomicSushi-gy41.ttf");
+}
+
+.top-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: min(max(30px, 14.85vw), 150px);
+    margin-bottom: 2px;
+    background-image: url("../../assets/images/backgrounds/japan-flag.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+/*700/722 px - 388*/
+.restaurant-icon {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: min(17.93vw, 30%);
+    margin: 0px 10px;
+    top: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: min(12.669vw, 128px);
+
+    box-sizing: border-box;
+    border: 5px black solid;
+    border-radius: 20px;
+    transform: scaleX(-1);
+
+    /*background-config*/
+    background-image: url("../../assets/images/backgrounds/chopping-board.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    background-color: #CD2C18;
+}
+
+.restaurant-title {
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 70%;
+    height: auto;
+    font-family: "Atomic-Samurai", "Courier", "sans-seriff";
+    font-size: min(calc(7px + 2vw), 2.3em);
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+        3px     3px     0   #000,
+        -1px    -1px    0   #000,  
+        1px     -1px    0   #000,
+        -1px    1px     0   #000,
+        1px     1px     0   #000;
+}
+
+#restaurant-main-icon {
+    width: 256px;
+    height: min(10.514vw, 106.22px);
+    top: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: scaleX(-1);
+}

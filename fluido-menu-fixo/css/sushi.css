@@ -1,0 +1,76 @@
+.main-content-topbar {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: "Atomic-Samurai", "Courier", "sans-seriff";
+
+}
+
+.black-border {
+    border: 5px black dotted;
+    border-radius: 10px;
+}
+
+.products-container {
+    height: 600px;
+    overflow-y: auto;
+}
+.sushi-product-card {
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    height: clamp(290px, 39.592vw, 400px);
+    vertical-align: top;
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: clamp(0.45em, 0.948vw, 0.9em); /*2.1em == 33.5px*/
+    margin: auto;
+}
+
+.sushi-product-card:hover{
+    border: 5px black solid;
+    transform: scale(1.1);
+}
+
+.triplet {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.triplet:first-child {
+    margin-top: 10%;
+}
+.triplet:last-child {
+    padding-bottom: 10%;
+}
+
+.triplet-01, .triplet-02, .triplet-03 {
+    display: inline-block;
+    margin: 1.2%;
+    
+}
+
+img.sushi-product-image {
+    min-width: 20%;
+    width: 100%;
+}
+
+.product-info {
+    width: 100%;
+}
+
+p.sushi-product-label, p.sushi-product-content{
+    display: inline;
+}
+
+p.sushi-product-content:after{
+    content: "\a\a";
+    white-space: pre;
+}
+
+p.sushi-product-label {
+    font-weight: bold;
+}
