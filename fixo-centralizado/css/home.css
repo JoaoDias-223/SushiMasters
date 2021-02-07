@@ -1,0 +1,85 @@
+.welcoming-section {
+    padding: 0;
+    width: 100%;
+}
+
+.side-message {
+    float: left;
+    max-width: 30%;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.restaurant-slideshow {
+    float: right;
+    max-width: 70%;
+}
+
+.slider {
+    display: block;
+    height: 266.67px;;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.sushi-highlights {
+    margin: 10px auto;
+}
+
+.highlights-title{
+    font-size: 1.3em;
+    margin-left: 5px;
+}
