@@ -1,0 +1,38 @@
+label {
+    width: 20%;
+    float: left;
+    text-align: right;
+    clear: left;
+}
+
+input.not-submit {
+    float: right;
+    width: 75%;
+    clear: right;
+}
+
+#message {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    height: clamp(50px, 19.796vw, 200px);
+}
+
+.field{
+    width: 100%;
+    margin: 5px;
+}
+
+#submit-button {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.google-map-container {
+    margin: auto;
+}
+
+.google-map{
+    width: 100%;
+    min-height: 400px;
+}
