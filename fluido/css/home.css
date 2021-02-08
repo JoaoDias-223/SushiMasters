@@ -17,8 +17,8 @@
 
 .slider {
     display: block;
-    height: 266.67px;;
-    width: clamp(176.211px, 26.33vw, 400px);
+    height: clamp(100px, 25vw, 266.67px);
+    width: clamp(176.211px, 25vw, 400px);
     margin: auto;
     position: relative;
 }
@@ -82,4 +82,35 @@
 .highlights-title{
     font-size: clamp(0.65em, 1.369vw, 1.3em);
     margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .welcoming-section {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .side-message {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(8px, 3.291vw, 50px);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .restaurant-slideshow {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .slider {
+        display: block;
+        height: clamp(150px, 26vw, 266.67px);
+        width: clamp(220px, 32vw, 500px);
+        margin: auto;
+        position: relative;
+    }
 }
