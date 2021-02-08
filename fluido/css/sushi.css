@@ -20,7 +20,7 @@
     border-radius: 10px;
     background-color: white;
     width: 30%;
-    height: clamp(290px, 39.592vw, 400px);
+    height: clamp(290px, 30vw, 410px);
     vertical-align: top;
     padding: 10px 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -73,4 +73,30 @@ p.sushi-product-content:after{
 
 p.sushi-product-label {
     font-weight: bold;
+}
+
+@media screen and (max-width: 880px){
+    .sushi-product-card{
+        border-radius: 10px;
+        background-color: white;
+        width: 100%;
+        height: clamp(130px, 18vw, 240px);
+        vertical-align: top;
+        padding: 10px 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-size: clamp(0.45em, 0.948vw, 0.9em); /*2.1em == 33.5px*/
+        margin: 5px auto;
+        color: black;
+    }
+
+    img.sushi-product-image {
+        float: left;
+        width: 40%;
+    }
+
+    .product-info {
+        float: right;
+        width: 50%;
+    }
 }
