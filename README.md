@@ -8,4 +8,4 @@ Fixo Centralizado: https://joaodias-223.github.io/SushiMasters/fixo-centralizado
 
 Fluido: https://joaodias-223.github.io/SushiMasters/fluido/html/home.html
 
-Fluido com menu fix0: https://joaodias-223.github.io/SushiMasters/fluido-menu-fixo/html/home.html
+Fluido com menu fixo: https://joaodias-223.github.io/SushiMasters/fluido-menu-fixo/html/home.html
